@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+ZA:wght@100..400&display=swap"
+      rel="stylesheet"
+    />
+    <title>Delfina 15</title>
+  </head>
+  <body class="container text-center gradient-gh-light mx-auto">
+    <!-- FONDO FIJO -->
+    <div
+      class="fixed h-screen w-screen inset-0 -z-10 flex justify-between items-center"
+    >
+      <img
+        src="./assets/bg/light-1.svg"
+        alt="Imagen izquierda"
+        class="h-auto w-1/2 lg:w-1/4 object-contain opacity-90"
+      />
+      <img
+        src="./assets/bg/light-2.svg"
+        alt="Imagen derecha"
+        class="h-auto w-1/2 lg:w-1/4 object-contain opacity-90"
+      />
+    </div>
+    <!-- ---------- -->
+
+    <!-- Menú superior -->
+    <header
+      id="mainMenu"
+      class="fixed color3-bg top-0 left-0 w-full shadow-md transition-transform transform -translate-y-full z-30 h-16"
+    >
+      <div class="container mx-auto flex justify-center items-center h-full">
+        <div class="">
+          <img
+            id="menuLogo"
+            class="text-center glow-effect transition-all duration-500"
+            src="./assets/bg/logo1.svg"
+            alt="logo"
+          />
+        </div>
+      </div>
+    </header>
+
+    <!-- Portada -->
+    <div
+      id="portada"
+      class="flex flex-col justify-center items-center h-screen"
+    >
+      <div class="relative -mt-20">
+        <h1
+          id="mainTitle"
+          class="absolute inset-0 flex items-center justify-center font1 size2 text-center color1 shadow2"
+        >
+          Delfina
+        </h1>
+        <p class="font2 size1 text-center color2">15</p>
+      </div>
+
+      <p class="size4 font3 color5 mx-24 leading-relaxed">
+        TE INVITO A CELEBRAR CONMIGO
+      </p>
+
+      <div>
+        <p class="mt-12 font3 size5 color5">MARZO</p>
+        <div class="flex flex-row justify-center items-center gap-5 mt-5">
+          <p class="font3 border-t border-b border-gray-400 py-2 color5">
+            Viernes
+          </p>
+          <p class="font2 size3 color5">14</p>
+          <p class="font3 border-t border-b border-gray-400 py-2 color5">
+            21:30 PM
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ----------- SECCION 1 ---------------- -->
+    <div id="sec1" class="flex flex-col justify-center items-center h-screen">
+      <p>SEGUNDA SECCIÓN DE INFO</p>
+    </div>
+    <!-- ----------- SECCION 2 ---------------- -->
+    <div id="sec2"></div>
+    <!-- ----------- SECCION 3 ---------------- -->
+    <div id="sec3"></div>
+
+    <!-- ----------- FOOTER ---------------- -->
+    <footer></footer>
+    <!-- --------------------------- -->
+    <script src="script.js"></script>
+  </body>
+</html>
